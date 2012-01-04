@@ -5,6 +5,10 @@
 section,article,nav{
 	display:block;
 }
+a:link,a:visited,a:active{
+	text-decoration:none;
+	color:inherit;
+}
 body{
 	background-color:#eee;
 	font-family:"Myriad Pro";
@@ -23,6 +27,9 @@ body{
 	font-size:2em;
 	line-height:1;
 }
+#navigation h1:hover{
+	text-decoration:underline;
+}
 nav{
 	float:right;
 }
@@ -37,6 +44,10 @@ nav ul li:hover{
 	text-decoration:underline;
 	color:#79AFCD;
 	cursor:pointer;
+}
+nav ul li.active{
+	text-decoration:underline;
+	color:#79AFCD;
 }
 #content{
 	clear:both;
@@ -63,4 +74,31 @@ nav ul li:hover{
 .box li{
 	list-style:none;
 	color:grey;
+}
+#tasks{
+	width:100%;
+}
+
+#tasks span,p{
+	display:inline;
+}
+#tasks p{
+	color:#79AFCD;
+}
+#tasks span{
+	color:#ccc;
+}
+#tasks .box{
+	margin-bottom:10px;
+	width:100%;
+}
+.checkBox{
+	width:10px;
+	height:10px;
+	float:right;
+	border:1px solid #ccc;
+}
+.checkBox:hover{
+	cursor:pointer;
+	border-color:grey;
 }
