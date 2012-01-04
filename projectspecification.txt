@@ -1,0 +1,14 @@
+dewthis - Project Management App
+
+Version 0.1
+
+Centered around simplicity
+
+No 'create a project' - you create one dewthis instance for each project
+No permissions - everything is open
+
+CRUD for ToDos - Set a date and assign useres
+
+CRUD for Discussions - Anyone can edit first post
+
+Basic Login/Logout - Admin activated accounts
